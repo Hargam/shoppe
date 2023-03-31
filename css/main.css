@@ -1,0 +1,103 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+a, ul, input{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+body {
+    width: 100%;
+}
+
+/* Header CSS */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 18vh;
+}
+hr:first-of-type {
+    margin: 0 auto;
+    margin-bottom: 13vh;
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    margin-left: 250px;
+    gap: 50px;
+}
+
+/* Main CSS */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    width: 88%;
+    margin: 0 auto;
+}
+section {
+    margin: 2vh;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.left input {
+    width: 15vw;
+    height: 5vh;
+    border: 1px solid grey;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.right p:first-of-type {
+    text-align: right;
+}
+.right div {
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.items {
+    display: flex;
+    margin-top: 10px;
+}
+.items img {
+    width: 90%;
+}
+
+/* HR avant footer */
+hr:last-of-type{
+    margin: 0 auto;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+    width: 80%;
+}
+
+/* Footer CSS */
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh;
+    width: 80%;
+}
+.top-foot, .bottom-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: -110px;
+} 
+footer input {
+    border-bottom: 2px solid black;
+    width: 20vw;
+    margin-right: 10px;
+}

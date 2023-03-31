@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Shoppe</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <!-- Logo -->
+        <div class="logo">
+            <img src="images/SHOPPE.png" alt="logo">
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="shop.html">Shop</a>
+            <a href="story.html">Our Story</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <div class="separate">|</div>
+        <div class="images">
+            <img src="images/search.png" alt="loupe">
+            <img src="images/Vector.png" alt="chariot">
+            <img src="images/avatar.png" alt="avatar">
+        </div>
+    </header>
+    <hr>
+    <!-- Main -->
+    <main>
+
+        <!-- Section gauche -->
+        <section class="left">
+            <h2>Shop</h2>
+            <div class="search">
+                <label for="site-search"></label>
+                <input type="search" id="site-search" name="search">
+                <button><img src="images/search.png" alt="loupe"></button>
+            </div>
+
+            <!-- Color filter -->
+            <div class="color-filter">
+                <label for="color-filter">Filter by Color</label>
+                <input type="text" id="color-filter" name="color" list="color" placeholder="Any Color">
+                <datalist id="color">
+                    <option value="Gold">
+                    <option value="Silver">
+                    <option value="White">
+                </datalist>
+            </div>
+
+            <!-- Materials filter -->
+            <div class="material-filter">
+                <label for="material-filter">Filter by Materials</label>
+                <input type="text" id="material-filter" name="materials" list="materials" placeholder="Any materials">
+                <datalist id="materials">
+                    <option value="Gold">
+                    <option value="Silver">
+                </datalist>
+            </div> 
+
+            <!-- Price filter -->
+            <div class="pricing">
+                <div class="pricing-slider">
+                    <label class="form-slider">
+                        <span>Filter by price</span>
+                        <input type="range" />
+                    </label>
+                    <div class="pricing-slider-value"></div>
+                </div>
+            </div>
+
+            <!-- Rating -->
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <p>(1)</p>
+            </div>
+        </section>
+
+        <!-- Section droite -->
+        <section class="right">
+            <!-- Items -->
+            <p>All 6 items</p>
+            <div class="items">
+                <!-- Item 1 avec rating -->
+                <div>
+                    <img src="images/latest/Img 01.png" alt="earrings">
+                    <div class="content">
+                        <p class="text"></p>
+                    </div>
+                    <h3>Hal Earrings</h3>
+                    <div class="rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                    <p>£30.00 - £39.99</p>
+                </div>
+                <!-- Item 2 -->
+                <div>
+                    <img src="images/latest/Img 03.png" alt="hair set">
+                    <div class="content">
+                        <p class="text"></p>
+                    </div>
+                    <h3>Kaede Hair Pin Set Of 3</h3>
+                    <p>£21.00 - 32.00</p>
+                </div>
+                <!-- Item 3 -->
+                <div>
+                    <img src="images/latest/Img 04.png" alt="pin set">
+                    <div class="content">
+                        <p class="text"></p>
+                    </div>
+                    <h3>Lira Pin Set of 3</h3>
+                    <p></p>
+                </div>
+                <!-- Item 4 -->
+                <div>
+                    <img src="images/latest/Img 02.png" alt="earrings">
+                    <div class="content">
+                        <p class="text"></p>
+                    </div>
+                    <h3>Ollie Earrings</h3>
+                    <p>£30.00</p>
+                </div>
+            <!-- Item 5 -->
+                <div>
+                    <img src="images/latest/Img 05.png" alt="necklace">
+                    <div class="content">
+                        <p class="text"></p>
+                    </div>
+                    <h3>Plaine Necklace</h3>
+                    <p>£0.00</p>
+                </div>
+                <!-- Item 6 -->
+                <div>
+                    <img src="images/latest/Img 07.png" alt="pin set 2">
+                    <div class="content">
+                        <p class="text"></p>
+                    </div>
+                    <h3>Yuki Pin Set Of 3</h3>
+                    <p>£29.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <!-- Top -->
+        <div class="top-foot">
+            <div class="foot-link">
+                <a href="">CONTACT</a>
+                <a href="">TERMS OF SERVICES</a>
+                <a href="">SHIPPING AND RETURNS</a>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="subscribe">
+                <label for="subcribe"></label>
+                <input type="text" id="subcribe" name="subcribe" placeholder="Give an email, get the newsletter.">
+                <button>Subscribe</button>
+            </div>
+        </div>
+<br>
+        <!-- Bottom -->
+        <div class="bottom-foot">
+            <div class="foot-bottom-left">
+                © 2021 Shoppe.
+                <a href="">Terms of use <span>and</span> privacy policy.</a>
+            </div>
+            <div class="foot-link">
+                <img src="images/Group 10.png" alt="social network images">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
